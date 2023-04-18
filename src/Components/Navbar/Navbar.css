@@ -1,0 +1,18 @@
+.navbar {
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: red;
+    background-color: black;
+    height: 50px;
+    width: auto;
+}
+
+@media (min-width:40px) and (max-width:600px) {
+    .navbar {
+        font-size: 12px;
+        height: 65px;
+    } 
+}

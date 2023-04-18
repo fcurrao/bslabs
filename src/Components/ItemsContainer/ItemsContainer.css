@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+ 
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.containerItem{
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+    border: 1px solid black;
+    justify-content: flex-start;
+    width: 300px;
+    height: 460px;
+    margin: 10px;  
+    box-shadow: 0 0 20px rgba(0,0,0,.15); 
+}
+
+.containerItem:hover{
+    cursor: pointer;
+    scale: 1.02;
+    transition: 150ms;
+    box-shadow: 0 0 20px rgba(255,185,0,.75); 
+    background-color: rgba(255, 187, 0, 0.138);
+}
+
+.ItemPicture{
+    height: 240px;
+    width: 275px;
+    margin: 5px;
+}
+
+.containerDescription{
+    color: black ;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+}
+
+.containerLocation{
+    color: #888888ec;
+    font-size: 12px;
+    font-family: "Poppins", sans-serif;
+}
+.containerAmount{
+    color:  #f1b81c;
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+}
+
+@media (min-width:40px) and (max-width:330px) {
+    .containerItem{
+        width: 260px; 
+    }
+
+    .ItemPicture{ 
+        width: 225px; 
+    }
+}
+
+
+
+

@@ -1,0 +1,30 @@
+.footer {
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: red;
+    background-color: black;
+    height: 50px;
+    width: auto;
+}
+
+.pictureFooter {
+    height: inherit;
+    margin-left: 10%;
+}
+
+@media (min-width:40px) and (max-width:600px) {
+
+    .footer {
+        font-size: 12px;
+        height: 65px;
+    }
+
+    .pictureFooter {
+        height: inherit;
+        margin-left: 8%;
+    }
+
+}
